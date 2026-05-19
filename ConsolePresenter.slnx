@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ConsolePresenter\ConsolePresenter.csproj" />
+  <Project Path="QrCode.Ascii.Generator/QrCode.Ascii.Generator.csproj" Id="1cad899b-1792-4233-8598-cc0f8f1fae4d" />
+</Solution>

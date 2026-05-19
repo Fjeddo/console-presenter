@@ -1,0 +1,18 @@
+  [bold Cyan]MARKUP-SYNTAX[/]
+
+  Spectre.Console använder en [white]BBCode-liknande syntax[/] för formatering:
+
+  [bold]Fetstil[/]          →  [Yellow]\[bold\]text\[/\][/]
+  [italic]Kursiv[/]           →  [Yellow]\[italic\]text\[/\][/]
+  [underline]Understruken[/]     →  [Yellow]\[underline\]text\[/\][/]
+
+  [red]Röd text[/]         →  [Yellow]\[red\]text\[/\][/]
+  [green]Grön text[/]        →  [Yellow]\[green\]text\[/\][/]
+  [yellow]Gul text[/]         →  [Yellow]\[yellow\]text\[/\][/]
+  [blue]Blå text[/]         →  [Yellow]\[blue\]text\[/\][/]
+  [magenta]Magenta text[/]     →  [Yellow]\[magenta\]text\[/\][/]
+  [Cyan]Cyan text[/]        →  [Yellow]\[Cyan\]text\[/\][/]
+
+  [bold yellow on blue]  Bakgrundsfärg  [/]   →  [Yellow]\[yellow on blue\]text\[/\][/]
+
+  [Yellow]Escape med dubbla hakparenteser:  \[\[literal\]\][/]

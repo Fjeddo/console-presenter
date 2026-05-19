@@ -1,0 +1,22 @@
+  KOD – CONSOLESLIDERENDERER
+  ══════════════════════════════════════════════
+
+  Standard-renderern använder bara System.Console:
+
+  ┌─────────────────────────────────────────────────────────┐
+  │  public void Render(string content,                     │
+  │                     int slideNumber, int totalSlides,   │
+  │                     string title)                       │
+  │  {                                                      │
+  │      Console.Clear();                                   │
+  │                                                         │
+  │      // Cyan header med slidenummer och titel           │
+  │      Console.ForegroundColor = ConsoleColor.Cyan;       │
+  │      Console.WriteLine($"─── Slide {slideNumber}/..."); │
+  │      Console.ResetColor();                              │
+  │                                                         │
+  │      Console.WriteLine(content);   // slide-innehållet  │
+  │                                                         │
+  │      // Grå navigerings-hint längst ner                 │
+  │  }                                                      │
+  └─────────────────────────────────────────────────────────┘

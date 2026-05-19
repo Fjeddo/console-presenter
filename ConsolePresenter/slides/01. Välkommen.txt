@@ -1,0 +1,13 @@
+  ████████╗███████╗██████╗ ███╗   ███╗██╗███╗   ██╗ █████╗ ██╗
+  ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║██║████╗  ██║██╔══██╗██║
+     ██║   █████╗  ██████╔╝██╔████╔██║██║██╔██╗ ██║███████║██║
+     ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║██║██║╚██╗██║██╔══██║██║
+     ██║   ███████╗██║  ██║██║ ╚═╝ ██║██║██║ ╚████║██║  ██║███████╗
+     ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝
+
+              Välkommen till ConsolePresenter – presentationer i terminalen!
+
+  Denna presentation visar hur du kan använda verktyget för att
+  visa textbaserade slides direkt i din terminal.
+
+  Navigera med piltangenterna eller hoppa till en slide med siffror + Enter.

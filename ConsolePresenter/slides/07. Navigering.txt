@@ -1,0 +1,19 @@
+  NAVIGERING
+  ══════════════════════════════════════════════
+
+  ┌──────────────────┬───────────────────────────────┐
+  │  Tangent         │  Åtgärd                       │
+  ├──────────────────┼───────────────────────────────┤
+  │  →  eller  ↓     │  Nästa slide                  │
+  │  ←  eller  ↑     │  Föregående slide             │
+  │  [siffra] Enter  │  Hoppa direkt till slide N    │
+  │  Q               │  Avsluta presentationen       │
+  └──────────────────┴───────────────────────────────┘
+
+  Hoppa-exempel:
+
+    Tryck  3  Enter  →  visar slide 03
+    Tryck  1  4  Enter  →  visar slide 14
+
+  Sifferbufferten töms om du trycker en piltangent
+  eller Enter utan att ha skrivit något nummer.

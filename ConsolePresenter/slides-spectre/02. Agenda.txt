@@ -1,0 +1,14 @@
+  [bold Cyan]AGENDA[/]
+
+   [Cyan]1.[/]  Välkommen
+   [Cyan]2.[/]  Agenda                              [Yellow]◄ Du är här[/]
+   [Cyan]3.[/]  Vad är Spectre.Console?
+   [Cyan]4.[/]  Markup-syntax
+   [Cyan]5.[/]  Färger
+   [Cyan]6.[/]  Tabeller
+   [Cyan]7.[/]  Träd-struktur
+   [Cyan]8.[/]  Figlet-text
+   [Cyan]9.[/]  ProgressBar & Spinners
+   [Cyan]10.[/] Undantag och felhantering
+   [Cyan]11.[/] Byta renderer i ConsolePresenter
+   [Cyan]12.[/] Tack!

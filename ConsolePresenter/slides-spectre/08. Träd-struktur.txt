@@ -1,0 +1,22 @@
+  [bold Cyan]TRÄD-STRUKTUR[/]
+
+  [white]Tree[/] och [white]TreeNode[/] visualiserar hierarkisk data:
+
+  [white]Solution[/]
+  ├── [Cyan]ConsolePresenter.csproj[/]
+  │   ├── [green]Program.cs[/]              [Yellow]← entry point[/]
+  │   ├── [green]ISlideRenderer.cs[/]       [Yellow]← interface[/]
+  │   ├── [green]ConsoleSlideRenderer.cs[/] [Yellow]← standard motor[/]
+  │   ├── [green]SpectreSlideRenderer.cs[/] [Yellow]← denna motor[/]
+  │   └── [green]SlideLoader.cs[/]          [Yellow]← fil-laddning[/]
+  ├── [yellow]slides/[/]
+  │   ├── 01. Välkommen.txt
+  │   └── ...
+  └── [yellow]slides-spectre/[/]
+      ├── 01. Välkommen.txt
+      └── ...
+
+  [Yellow]var root = new Tree("Solution");
+  var proj = root.AddNode("[Cyan]ConsolePresenter.csproj[/]");
+  proj.AddNode("[green]Program.cs[/]");
+  AnsiConsole.Write(root);[/]

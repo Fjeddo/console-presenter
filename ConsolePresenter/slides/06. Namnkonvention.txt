@@ -1,0 +1,22 @@
+  NAMNKONVENTION FÖR FILER
+  ══════════════════════════════════════════════
+
+  Filer måste följa mönstret:
+
+       NN. Titel.txt
+       │   │
+       │   └─ Fri text – visas som rubrik i headern
+       └───── Heltal, minst en siffra (01, 1, 14 ...)
+
+  Exempel:
+    01. Välkommen.txt
+    02. Agenda.txt
+    10. Sammanfattning.txt
+    14. Bonusmaterial.txt
+
+  ⚠  Filer som inte matchar mönstret ignoreras tyst.
+
+  Placera alla slides i samma katalog och ange sökvägen
+  som argument när du startar programmet:
+
+    > ConsolePresenter.exe "C:\mina-slides"

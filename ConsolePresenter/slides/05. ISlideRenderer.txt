@@ -1,0 +1,21 @@
+  ISLIDRENDERER – PLUGGBAR MOTOR
+  ══════════════════════════════════════════════
+
+  Kärnan i utbytbarheten är ett litet interface:
+
+  ┌─────────────────────────────────────────────────────────┐
+  │  interface ISlideRenderer                               │
+  │  {                                                      │
+  │      void Render(string content,                        │
+  │                  int    slideNumber,                    │
+  │                  int    totalSlides,                    │
+  │                  string title);                         │
+  │  }                                                      │
+  └─────────────────────────────────────────────────────────┘
+
+  Implementera interfacet → byt ut en rad i Program.cs → klart.
+
+  Tänkbara motorer:
+    • ConsoleSlideRenderer  (inbyggd, ingen depedency)
+    • SpectreSlideRenderer  (färger, tabeller, markup)
+    • HtmlSlideRenderer     (generera statisk HTML)

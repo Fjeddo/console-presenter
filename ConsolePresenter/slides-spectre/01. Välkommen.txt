@@ -1,0 +1,14 @@
+[Cyan]  ███████╗██████╗ ███████╗ ██████╗████████╗██████╗ ███████╗[/]
+[Cyan]  ██╔════╝██╔══██╗██╔════╝██╔════╝╚══██╔══╝██╔══██╗██╔════╝[/]
+[Cyan]  ███████╗██████╔╝█████╗  ██║        ██║   ██████╔╝█████╗  [/]
+[Cyan]  ╚════██║██╔═══╝ ██╔══╝  ██║        ██║   ██╔══██╗██╔══╝  [/]
+[Cyan]  ███████║██║     ███████╗╚██████╗   ██║   ██║  ██║███████╗[/]
+[Cyan]  ╚══════╝╚═╝     ╚══════╝ ╚═════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝[/]
+
+  [bold white]Välkommen till ConsolePresenter med Spectre.Console![/]
+
+  Denna presentation körs med [Cyan]SpectreSlideRenderer[/] –
+  en pluggbar motor som ger [yellow]färger[/], [green]markup[/] och [bold]formatering[/]
+  direkt i terminalen.
+
+  [Yellow]Starta med:  dotnet run -- slides-spectre[/]

@@ -1,0 +1,21 @@
+  [bold Cyan]BYTA RENDERER I TERMINALPPTX[/]
+
+  Tre steg – byt ut [white]en rad[/] i [Yellow]Program.cs[/]:
+
+  [bold]Steg 1[/] – Paketet är redan installerat:
+  [Yellow]  dotnet add package Spectre.Console[/]
+
+  [bold]Steg 2[/] – Klassen finns redan i projektet:
+  [Yellow]  SpectreSlideRenderer.cs[/]  [green]✔[/]
+
+  [bold]Steg 3[/] – Ändra en rad i [Yellow]Program.cs[/]:
+
+  [red]  - ISlideRenderer renderer = new ConsoleSlideRenderer();[/]
+  [green]  + ISlideRenderer renderer = new SpectreSlideRenderer();[/]
+
+  [bold]Steg 4[/] – Peka på rätt slides-mapp:
+
+  [Yellow]  dotnet run -- slides-spectre[/]
+
+  [yellow]Det är allt![/] Resten av programmet – navigering, fil-laddning,
+  input-hantering – är helt oförändrat.

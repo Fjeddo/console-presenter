@@ -1,0 +1,25 @@
+  BYTA RENDERER
+  ══════════════════════════════════════════════
+
+  Tre steg för att plugga in en ny renderer:
+
+  Steg 1 – Skapa klassen:
+
+    class SpectreSlideRenderer : ISlideRenderer
+    {
+        public void Render(string content, int slideNumber,
+                           int totalSlides, string title)
+        {
+            // Använd Spectre.Console här
+            AnsiConsole.MarkupLine($"[Cyan]Slide {slideNumber}[/]");
+            AnsiConsole.Write(new Panel(content).Header(title));
+        }
+    }
+
+  Steg 2 – Lägg till paketet:
+
+    > dotnet add package Spectre.Console
+
+  Steg 3 – Byt ut en rad i Program.cs:
+
+    ISlideRenderer renderer = new SpectreSlideRenderer();

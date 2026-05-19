@@ -1,0 +1,14 @@
+  [bold Cyan]VAD ÄR SPECTRE.CONSOLE?[/]
+
+  [white]Spectre.Console[/] är ett .NET-bibliotek för rika terminalgränssnitt.
+
+  [green]✔[/]  [white]Markup-syntax[/]       – inline färger och formatering
+  [green]✔[/]  [white]Tabeller[/]             – justerade kolumner med borders
+  [green]✔[/]  [white]Träd-vyer[/]            – hierarkisk datavisning
+  [green]✔[/]  [white]Figlet[/]               – ASCII-art-rubriker
+  [green]✔[/]  [white]Progress & Status[/]    – animerade spinners och progress-bars
+  [green]✔[/]  [white]Prompts & Selections[/] – interaktiva menyer
+  [green]✔[/]  [white]Exceptions[/]           – snyggt formaterade stack traces
+
+  [Yellow]NuGet:  dotnet add package Spectre.Console[/]
+  [Yellow]Docs:   https://spectreconsole.net[/]

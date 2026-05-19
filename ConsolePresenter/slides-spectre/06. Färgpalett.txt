@@ -1,0 +1,10 @@
+  [bold Cyan]FÄRGPALETT – LIVE[/]
+
+  [bold]Standard (16 färger)[/]
+    [black on white] black [/] [red] red [/] [green] green [/] [yellow] yellow [/] [blue] blue [/] [magenta] magenta [/] [Cyan] Cyan [/] [white] white [/]
+
+  [bold]Fler namngivna färger[/]
+    [aqua] aqua [/] [olive] olive [/] [teal] teal [/] [navy] navy [/] [maroon] maroon [/] [purple] purple [/] [silver] silver [/] [lime] lime [/]
+
+  [bold]RGB-hex[/]
+    [#ff0000] #ff0000 [/][#ff6347] #ff6347 [/][#ffa500] #ffa500 [/][#ffd700] #ffd700 [/][#adff2f] #adff2f [/][#00ff7f] #00ff7f [/][#7fffd4] #7fffd4 [/][#00bfff] #00bfff [/][#8a2be2] #8a2be2 [/]

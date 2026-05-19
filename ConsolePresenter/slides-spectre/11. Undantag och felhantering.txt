@@ -1,0 +1,24 @@
+  [bold Cyan]UNDANTAG OCH FELHANTERING[/]
+
+  Spectre.Console kan rendera exceptions med syntax highlighting:
+
+  [Yellow]try
+  {
+      DoSomething();
+  }
+  catch (Exception ex)
+  {
+      AnsiConsole.WriteException(ex,
+          ExceptionFormats.ShortenPaths |
+          ExceptionFormats.ShortenTypes |
+          ExceptionFormats.ShowLinks);
+  }[/]
+
+  Utdata blir:
+  [red]  System.InvalidOperationException:[/] Något gick fel
+  [Yellow]       at[/] [Cyan]MyApp.DoSomething()[/] [Yellow]in[/] [underline]Program.cs:42[/]
+  [Yellow]       at[/] [Cyan]MyApp.Main()[/]        [Yellow]in[/] [underline]Program.cs:10[/]
+
+  [green]✔[/]  Kortare typ-namn
+  [green]✔[/]  Klickbara fil-länkar i moderna terminaler
+  [green]✔[/]  Innersta exception markeras tydligt

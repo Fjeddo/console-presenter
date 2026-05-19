@@ -1,0 +1,15 @@
+  AGENDA
+  ══════════════════════════════════════════════
+
+   1.  Välkommen
+   2.  Agenda                          ◄ Du är här
+   3.  Vad är ConsolePresenter?
+   4.  Arkitektur
+   5.  ISlideRenderer – pluggbar motor
+   6.  Namnkonvention för filer
+   7.  Navigering
+   8.  Kod – SlideLoader
+   9.  Kod – ConsoleSlideRenderer
+  10.  Byta renderer
+  11.  Roadmap
+  12.  Tack!

@@ -1,0 +1,20 @@
+  KOD – SLIDELOADER
+  ══════════════════════════════════════════════
+
+  SlideLoader.Load(directory) gör tre saker:
+
+    1. Enumererar alla *.txt i katalogen
+    2. Parsar det numeriska prefixet ur filnamnet
+    3. Returnerar en sorterad IReadOnlyList<SlideFile>
+
+  ┌─────────────────────────────────────────────────────────┐
+  │  Directory.EnumerateFiles(directory, "*.txt")           │
+  │    .Select(path => { /* parsa prefix */ })              │
+  │    .OfType<SlideFile>()                                 │
+  │    .OrderBy(s => s.Number)                              │
+  │    .ToList();                                           │
+  └─────────────────────────────────────────────────────────┘
+
+  SlideFile är en enkel record:
+
+    record SlideFile(int Number, string Title, string Path);

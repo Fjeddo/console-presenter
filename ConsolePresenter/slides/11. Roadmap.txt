@@ -1,0 +1,14 @@
+  ROADMAP
+  ══════════════════════════════════════════════
+
+  Planerade förbättringar:
+
+  [ ]  SpectreSlideRenderer  – färger, borders och markup
+  [ ]  Markdown-stöd         – rendera .md-filer som slides
+  [ ]  Bildstöd (ASCII-art)  – konvertera bilder med SixLabors
+  [ ]  Konfig-fil            – välj renderer via appsettings.json
+  [ ]  Sökning               – sök i slide-innehåll med /sökterm
+  [ ]  Fullskärmsläge        – dölj terminalkanter automatiskt
+  [ ]  Export till HTML       – generera statisk webbsida
+
+  Bidra gärna! Projektet är öppet för pull requests.

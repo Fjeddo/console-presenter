@@ -1,0 +1,26 @@
+  [bold Cyan]PROGRESSBAR & SPINNERS[/]
+
+  Perfekt för långkörande operationer – spinner och progress direkt i terminalen.
+
+  [bold]Spinner:[/]
+  [Yellow]await AnsiConsole.Status()
+      .Spinner(Spinner.Known.Dots)
+      .StartAsync("Laddar slides...", async ctx =>
+      {
+          await Task.Delay(2000);
+          ctx.Status("Klar!");
+      });[/]
+
+  [bold]Progress-bar:[/]
+  [Yellow]await AnsiConsole.Progress()
+      .StartAsync(async ctx =>
+      {
+          var task = ctx.AddTask("[Cyan]Bearbetar[/]");
+          while (!ctx.IsFinished)
+          {
+              task.Increment(10);
+              await Task.Delay(200);
+          }
+      });[/]
+
+  Inbyggda spinners: [white]Dots[/], [white]Star[/], [white]Arc[/], [white]BouncingBar[/] och [white]50+ till[/].

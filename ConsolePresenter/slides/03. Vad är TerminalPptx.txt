@@ -1,0 +1,12 @@
+  VAD ÄR TERMINALPPTX?
+  ══════════════════════════════════════════════
+
+  ConsolePresenter är ett verktyg för att köra textbaserade presentationer
+  direkt i din terminal – utan PowerPoint, utan browser.
+
+  ✔  Inga externa beroenden för grundläget
+  ✔  Snabbt att starta
+  ✔  Versionshanteras enkelt tillsammans med kod
+  ✔  Passar utmärkt för dev-demos och tech talks
+
+  Slides är vanliga .txt-filer – redigera dem i valfri editor.

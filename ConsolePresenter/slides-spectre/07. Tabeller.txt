@@ -1,0 +1,19 @@
+  [bold Cyan]TABELLER[/]
+
+  Tabeller renderas med justerade kolumner och valfri border-stil:
+
+  ┌──────────────┬────────────────────┬───────────────────┐
+  │ Border-stil  │ Kod                │ Utseende          │
+  ├──────────────┼────────────────────┼───────────────────┤
+  │ Rounded      │ BoxBorder.Rounded  │ ╭─╮ runda hörn    │
+  │ Heavy        │ BoxBorder.Heavy    │ ┏━┓ tjocka lin.   │
+  │ Double       │ BoxBorder.Double   │ ╔═╗ dubbla lin.   │
+  │ Ascii        │ BoxBorder.Ascii    │ +-+ enkla tecken  │
+  │ None         │ BoxBorder.None     │    ingen border   │
+  └──────────────┴────────────────────┴───────────────────┘
+
+  [Yellow]var table = new Table();
+  table.AddColumn("Namn");
+  table.AddColumn("Värde");
+  table.AddRow("[green]OK[/]", "200");
+  AnsiConsole.Write(table);[/]
