@@ -43,7 +43,3 @@ dotnet run --project QrCode.Ascii.Generator
 ```
 
 See [QrCode.Ascii.Generator/README.md](QrCode.Ascii.Generator/README.md) for full usage.
-
-## License
-
-MIT
