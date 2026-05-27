@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsolePresenter": {
+      "commandName": "Project",
+      "commandLineArgs": "slides-spectre"
+    }
+  }
+}
